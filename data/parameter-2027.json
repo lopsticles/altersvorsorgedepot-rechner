@@ -1,0 +1,373 @@
+{
+  "titel": "Rechengrößen Altersvorsorgedepot-Rechner",
+  "gueltig_ab": "2027-01-01",
+  "stand": "2026-09-28",
+  "hinweis": "Jeder Wert mit Fundstelle. Fördervorschriften: EStG/AltZertG in der Fassung des Altersvorsorgereformgesetzes vom 26.05.2026, BGBl. 2026 I Nr. 156 (Art. 2, 6; in Kraft 01.01.2027). ESt-Tarif: Fassung ab VZ 2026, ein Tarif 2027 ist noch nicht beschlossen.",
+  "werte": {
+    "GRUNDZULAGE_STUFE1_SATZ": {
+      "wert": 0.5,
+      "fundstelle": "§ 84 S. 1 Nr. 1 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "GRUNDZULAGE_STUFE1_BIS": {
+      "wert": 360,
+      "fundstelle": "§ 84 S. 1 Nr. 1 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "GRUNDZULAGE_STUFE2_SATZ": {
+      "wert": 0.25,
+      "fundstelle": "§ 84 S. 1 Nr. 2 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "GEFOERDERT_BIS": {
+      "wert": 1800,
+      "fundstelle": "§ 84 S. 1 Nr. 2, § 85 Abs. 1, § 10a Abs. 1 S. 1 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "BERUFSEINSTEIGERBONUS": {
+      "wert": 200,
+      "fundstelle": "§ 84 S. 2 EStG n. F. (einmalig, unter 25 zu Beginn des Beitragsjahres, nur § 79 S. 1)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "BONUS_ALTER_UNTER": {
+      "wert": 25,
+      "fundstelle": "§ 84 S. 2 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "GRUNDZULAGE_MITTELBAR_MAX": {
+      "wert": 175,
+      "fundstelle": "§ 84 S. 3–4 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "KINDERZULAGE_SATZ": {
+      "wert": 1.0,
+      "fundstelle": "§ 85 Abs. 1 S. 1 EStG n. F. (je Kind)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "KINDERZULAGE_MAX_JE_KIND": {
+      "wert": 300,
+      "fundstelle": "§ 85 Abs. 1 S. 1 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "MINDESTEIGENBEITRAG": {
+      "wert": 120,
+      "fundstelle": "§ 86 EStG n. F.; mittelbar § 79 S. 2 Nr. 4 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "SA_HOECHSTBETRAG": {
+      "wert": 1800,
+      "fundstelle": "§ 10a Abs. 1 S. 1 EStG n. F. (zuzüglich zustehender Zulage)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "SA_ERHOEHUNG_MITTELBAR": {
+      "wert": 120,
+      "fundstelle": "§ 10a Abs. 3 S. 3–4 EStG i. d. F. Art. 2 Nr. 1 c",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "HOECHSTEINZAHLUNG_VERTRAG": {
+      "wert": 6840,
+      "fundstelle": "§ 1 Abs. 1 S. 1 Nr. 5 AltZertG n. F. (Zulagen und Erträge zählen nicht mit)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "MAX_GEFOERDERTE_NEUVERTRAEGE": {
+      "wert": 2,
+      "fundstelle": "§ 82 Abs. 5 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "SELBSTSTAENDIG_ALTER_UNTER": {
+      "wert": 67,
+      "fundstelle": "§ 10a Abs. 1 S. 5 EStG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "KOSTEN_STANDARDDEPOT_MAX": {
+      "wert": 0.01,
+      "fundstelle": "§ 2a Abs. 2 AltZertG n. F. (Effektivkosten)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "ABLAUF_5J_RISIKO_MAX": {
+      "wert": 0.5,
+      "fundstelle": "§ 1 Abs. 1c AltZertG n. F. (5 Jahre vor Auszahlbeginn höchstens 50 % im OGAW Risikoklasse 3–5)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "ABLAUF_2J_RISIKO_MAX": {
+      "wert": 0.3,
+      "fundstelle": "§ 1 Abs. 1c AltZertG n. F. (2 Jahre vor und bei Auszahlbeginn)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "AUSZAHLUNG_AB_ALTER": {
+      "wert": 65,
+      "fundstelle": "§ 1 Abs. 1 Nr. 2a AltZertG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "AUSZAHLUNG_BIS_ALTER": {
+      "wert": 70,
+      "fundstelle": "§ 1 Abs. 1 Nr. 2a AltZertG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "AUSZAHLPLAN_MIN_ENDALTER": {
+      "wert": 85,
+      "fundstelle": "§ 1 Abs. 1 S. 1 Nr. 4 b aa AltZertG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "TEILENTNAHME_MAX": {
+      "wert": 0.3,
+      "fundstelle": "§ 1 Abs. 1 S. 1 Nr. 4 letzter Halbsatz AltZertG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "WECHSELKOSTEN_MAX": {
+      "wert": 150,
+      "fundstelle": "§ 1 Abs. 1 S. 3 AltZertG n. F. (abgebender Anbieter, nur innerhalb 5 Jahren nach Abschluss; danach kostenfrei)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "WECHSELKOSTEN_FRIST_JAHRE": {
+      "wert": 5,
+      "fundstelle": "§ 1 Abs. 1 S. 3 AltZertG n. F.",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "KLEINBETRAG_QUOTE": {
+      "wert": 0.015,
+      "fundstelle": "§ 93 Abs. 3 S. 2 Nr. 2 EStG i. d. F. Art. 1 Nr. 4",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "BEZUGSGROESSE_MONAT": {
+      "wert": 3955,
+      "fundstelle": "§ 1 SVBezGrV 2026 (§ 18 SGB IV)",
+      "stand": "2026"
+    },
+    "UNGEFOERDERT_HAELFTE_JAHRE": {
+      "wert": 12,
+      "fundstelle": "§ 22 Nr. 5 S. 2 c i. V. m. § 20 Abs. 1 Nr. 6 S. 2 EStG",
+      "stand": "geltende Fassung"
+    },
+    "UNGEFOERDERT_HAELFTE_ALTER": {
+      "wert": 62,
+      "fundstelle": "§ 52 Abs. 28 S. 7 EStG (Verträge ab 2012)",
+      "stand": "geltende Fassung"
+    },
+    "GRUNDFREIBETRAG": {
+      "wert": 12348,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 1 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE2_BIS": {
+      "wert": 17799,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 2 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE2_A": {
+      "wert": 914.51,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 2 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE2_B": {
+      "wert": 1400,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 2 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE3_BIS": {
+      "wert": 69878,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 3 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE3_A": {
+      "wert": 173.1,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 3 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE3_B": {
+      "wert": 2397,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 3 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE3_C": {
+      "wert": 1034.87,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 3 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE4_BIS": {
+      "wert": 277825,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 4 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE4_ABZUG": {
+      "wert": 11135.63,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 4 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "TARIF_ZONE5_ABZUG": {
+      "wert": 19470.38,
+      "fundstelle": "§ 32a Abs. 1 S. 2 Nr. 5 EStG, VZ 2026",
+      "stand": "VZ 2026"
+    },
+    "SOLI_FREIGRENZE": {
+      "wert": 20350,
+      "fundstelle": "§ 3 Abs. 3 S. 1 Nr. 2 SolZG (Splitting: Nr. 1, doppelt)",
+      "stand": "VZ 2026"
+    },
+    "SOLI_FREIGRENZE_SPLITTING": {
+      "wert": 40700,
+      "fundstelle": "§ 3 Abs. 3 S. 1 Nr. 1 SolZG",
+      "stand": "VZ 2026"
+    },
+    "SOLI_SATZ": {
+      "wert": 0.055,
+      "fundstelle": "§ 4 S. 1 SolZG",
+      "stand": "geltende Fassung"
+    },
+    "SOLI_MILDERUNG": {
+      "wert": 0.119,
+      "fundstelle": "§ 4 S. 2 SolZG",
+      "stand": "geltende Fassung"
+    },
+    "KIST_SATZ": {
+      "wert": 0.09,
+      "fundstelle": "Landesrecht (BY/BW 8 %), ohne Kappung",
+      "stand": "geltende Fassung"
+    },
+    "ARBEITNEHMER_PAUSCHBETRAG": {
+      "wert": 1230,
+      "fundstelle": "§ 9a S. 1 Nr. 1 a EStG",
+      "stand": "geltende Fassung"
+    },
+    "WERBUNGSKOSTEN_RENTE": {
+      "wert": 102,
+      "fundstelle": "§ 9a S. 1 Nr. 3 EStG",
+      "stand": "geltende Fassung"
+    },
+    "SONDERAUSGABEN_PAUSCHBETRAG": {
+      "wert": 36,
+      "fundstelle": "§ 10c S. 1 EStG",
+      "stand": "geltende Fassung"
+    },
+    "SPARERPAUSCHBETRAG": {
+      "wert": 1000,
+      "fundstelle": "§ 20 Abs. 9 S. 1 EStG (Ehegatten 2.000 €, S. 2)",
+      "stand": "geltende Fassung"
+    },
+    "ABGELTUNGSTEUER": {
+      "wert": 0.25,
+      "fundstelle": "§ 32d Abs. 1 EStG",
+      "stand": "geltende Fassung"
+    },
+    "TEILFREISTELLUNG_AKTIENFONDS": {
+      "wert": 0.3,
+      "fundstelle": "§ 20 Abs. 1 InvStG",
+      "stand": "geltende Fassung"
+    },
+    "BEITRAG_RV": {
+      "wert": 0.186,
+      "fundstelle": "§ 158 SGB VI, wie im Rentenrechner",
+      "stand": "2026"
+    },
+    "BEITRAG_AV": {
+      "wert": 0.026,
+      "fundstelle": "§ 341 SGB III, wie im Rentenrechner",
+      "stand": "2026"
+    },
+    "BEITRAG_KV": {
+      "wert": 0.175,
+      "fundstelle": "14,6 % (§ 241 SGB V) + durchschn. Zusatzbeitrag 2026 2,9 %, wie im Rentenrechner",
+      "stand": "2026"
+    },
+    "BEITRAG_PV": {
+      "wert": 0.036,
+      "fundstelle": "§ 55 Abs. 1 SGB XI, wie im Rentenrechner",
+      "stand": "2026"
+    },
+    "BEITRAG_PV_KINDERLOS": {
+      "wert": 0.042,
+      "fundstelle": "§ 55 Abs. 3 SGB XI, wie im Rentenrechner",
+      "stand": "2026"
+    },
+    "BEITRAG_KV_ERMAESSIGT": {
+      "wert": 0.169,
+      "fundstelle": "§ 243 SGB V 14,0 % + 2,9 %, wie im Rentenrechner",
+      "stand": "2026"
+    },
+    "BBG_RV_MONAT": {
+      "wert": 8450,
+      "fundstelle": "§ 4 Abs. 1 Nr. 1 SVBezGrV 2026",
+      "stand": "2026"
+    },
+    "BBG_KV_MONAT": {
+      "wert": 5812.5,
+      "fundstelle": "§ 2 Abs. 2 SVBezGrV 2026",
+      "stand": "2026"
+    },
+    "PKV_BASIS_BEAMTE_MONAT": {
+      "wert": 250,
+      "fundstelle": "Annahme: abziehbarer Basisanteil der PKV nach Beihilfe (§ 10 Abs. 1 Nr. 3 EStG), Beratungswert",
+      "stand": "Annahme"
+    },
+    "WECHSEL_PAUSCHALE_NEU_MAX": {
+      "wert": 150,
+      "fundstelle": "§ 1 Abs. 1 S. 4 AltZertG n. F. (aufnehmender Anbieter, einmalige Verwaltungspauschale, unabhängig vom Vertragsalter)",
+      "stand": "BGBl. 2026 I Nr. 156"
+    },
+    "DURCHSCHNITTSENTGELT": {
+      "wert": 51944,
+      "fundstelle": "§ 3 Abs. 2 SVBezGrV 2026 (vorläufig), für die Rentenschätzung",
+      "stand": "2026"
+    },
+    "RENTENWERT": {
+      "wert": 42.52,
+      "fundstelle": "§ 1 RWBestV 2026, ab 01.07.2026, für die Rentenschätzung",
+      "stand": "2026"
+    },
+    "BERUFSBEGINN_ALTER": {
+      "wert": 22,
+      "fundstelle": "Annahme für die Rentenschätzung (Beitragsjahre ab diesem Alter)",
+      "stand": "Annahme"
+    },
+    "RUHEGEHALT_SATZ_JAHR": {
+      "wert": 0.0179375,
+      "fundstelle": "§ 14 Abs. 1 S. 1 BeamtVG, für die Pensionsschätzung",
+      "stand": "geltende Fassung"
+    },
+    "RUHEGEHALT_MAX": {
+      "wert": 0.7175,
+      "fundstelle": "§ 14 Abs. 1 S. 1 BeamtVG",
+      "stand": "geltende Fassung"
+    },
+    "DIENSTBEGINN_ALTER": {
+      "wert": 27,
+      "fundstelle": "Annahme für die Pensionsschätzung (ruhegehaltfähige Dienstzeit ab diesem Alter)",
+      "stand": "Annahme"
+    },
+    "ALT_GRUNDZULAGE": {
+      "wert": 175,
+      "fundstelle": "§ 84 S. 1 EStG a. F. (Bestandsvertrag, § 52 Abs. 50a S. 1 EStG n. F.)",
+      "stand": "Gesetzestext a. F., gesetze-im-internet.de, abgerufen 2026-09-29"
+    },
+    "ALT_KINDERZULAGE_VOR2008": {
+      "wert": 185,
+      "fundstelle": "§ 85 Abs. 1 S. 1 EStG a. F.",
+      "stand": "Gesetzestext a. F., gesetze-im-internet.de, abgerufen 2026-09-29"
+    },
+    "ALT_KINDERZULAGE_AB2008": {
+      "wert": 300,
+      "fundstelle": "§ 85 Abs. 1 S. 2 EStG a. F. (nach dem 31.12.2007 geborene Kinder)",
+      "stand": "Gesetzestext a. F., gesetze-im-internet.de, abgerufen 2026-09-29"
+    },
+    "ALT_KINDER_GEBURTSJAHR_AB": {
+      "wert": 2008,
+      "fundstelle": "§ 85 Abs. 1 S. 2 EStG a. F.",
+      "stand": "Gesetzestext a. F., gesetze-im-internet.de, abgerufen 2026-09-29"
+    },
+    "ALT_MINDESTEIGENBEITRAG_SATZ": {
+      "wert": 0.04,
+      "fundstelle": "§ 86 Abs. 1 S. 2 EStG a. F. (4 % der Einnahmen des Vorjahres)",
+      "stand": "Gesetzestext a. F., gesetze-im-internet.de, abgerufen 2026-09-29"
+    },
+    "ALT_MINDESTEIGENBEITRAG_SOCKEL": {
+      "wert": 60,
+      "fundstelle": "§ 86 Abs. 1 S. 4–5 EStG a. F.",
+      "stand": "Gesetzestext a. F., gesetze-im-internet.de, abgerufen 2026-09-29"
+    },
+    "ALT_SA_HOECHSTBETRAG": {
+      "wert": 2100,
+      "fundstelle": "§ 10a Abs. 1 S. 1 EStG a. F. (Beitrag plus Zulage; zugleich Deckel des Mindesteigenbeitrags nach § 86)",
+      "stand": "Gesetzestext a. F., gesetze-im-internet.de, abgerufen 2026-09-29"
+    }
+  }
+}

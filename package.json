@@ -1,0 +1,21 @@
+{
+  "name": "altersvorsorgedepot-rechner",
+  "version": "1.0.0",
+  "description": "Geförderte Altersvorsorge ab 2027 (Altersvorsorgedepot, BGBl. 2026 I Nr. 156): Grund- und Kinderzulage, Steuervorteil mit Günstigerprüfung, Standard- und freies Depot, Auszahlung netto, Vergleich mit Riester und ETF-Sparplan",
+  "scripts": {
+    "test": "node test/testfaelle.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "homepage": "https://vorsorge.lopsticles.com/",
+  "keywords": [
+    "altersvorsorgedepot",
+    "altersvorsorge",
+    "riester",
+    "zulage",
+    "etf",
+    "altersvorsorgereform"
+  ],
+  "license": "MIT"
+}
